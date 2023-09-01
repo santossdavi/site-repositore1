@@ -30,19 +30,20 @@
       
       .container-menu{
          display: none;
-        position: absolute
+        position: absolute;
         top: 100%;
         width: 60vw;
       }
-
-      .container-botao:checked~.container-menu {
-         display: block;
-      }
-
       .menu-item, .menu-item-titulo{
          padding: 1em;
          background-color: var(--branco);
       }
+
+      
+      .container-botao:checked~.container-menu {
+         display: block;
+      }
+
 
     @media screen and (min-width: 1024px) {
     .cabecalho-titulo {
