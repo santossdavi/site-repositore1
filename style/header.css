@@ -45,7 +45,11 @@
          text-decoration: none;
          color: var(--azul-degrade);
       }
-
+ 
+      .menu-titulo{
+         color: var(--laranja);
+      }
+      
       .container-botao:checked~.container-menu {
          display: block;
       }
