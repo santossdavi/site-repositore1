@@ -46,10 +46,10 @@
          color: var(--azul-degrade);
       }
  
-      .menu-titulo{
+      .menu-item-titulo{
          color: var(--laranja);
       }
-      
+
       .container-botao:checked~.container-menu {
          display: block;
       }
