@@ -54,6 +54,10 @@
          display: none;
       }
 
+      .container-titulo-negrito{
+         font-weight: 700;
+      }
+
       .container-botao:checked~.container-menu {
          display: block;
       }
