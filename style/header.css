@@ -50,6 +50,10 @@
          color: var(--laranja);
       }
 
+      .container-botao {
+         display: none;
+      }
+
       .container-botao:checked~.container-menu {
          display: block;
       }
