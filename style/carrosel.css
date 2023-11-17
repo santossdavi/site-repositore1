@@ -37,3 +37,10 @@
     display: flex;
     justify-content: space-between;
 }
+
+.card {
+    border-radius: 10px;
+    background: var(--branco);
+    margin: 1em;
+    padding: 1em;
+}
